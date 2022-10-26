@@ -90,6 +90,7 @@ section {
   width: 100vw;
   height: 100vh;
   background-image: url("deforestation_blured.jpg");
+  background-size: cover;
 }
 
 article {
