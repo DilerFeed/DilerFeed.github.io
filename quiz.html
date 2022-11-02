@@ -1,3 +1,31 @@
+<style>
+aside {
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #333;
+}
+.question {
+	font-weight: 600;
+}
+.answers {
+    margin-bottom: 20px;
+}
+#submit {
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #297;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover {
+	background-color: #3a8;
+}
+</style>
+
 <html lang="ua">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +35,6 @@
     <title>Знищення лісів</title>
 </head>
 <body>
-<div id="preloader"></div>
     <header>
         <figure class="brand">Знищення лісів</figure>
         <nav class="menu">
@@ -21,25 +48,12 @@
             </ul>
         </nav>
     </header>
-    <section>
-		<div class="main">
-      <h2>Бережіть ліси!</h2>
-      <p>У 2018 році щорічна втрата лісів склала майже 21 Мга. Основними
-      причинами втрати вважаються:</p>
-      <ol>
-        <li>Лісові пожежі;</li>
-        <li>Витрати на продукцію лісового господарства;</li>
-        <li>Збільшення площі сільського господарства;</li>
-        <li>Незаконна вирубка лісів.</li>
-      </ol>
-    </div>
-    </section>
-<script>
-var loader = document.getElementById("preloader");
-
-window.addEventListener("load", function(){
-  loader.style.display = "none";
-})
-</script>
+  <aside>
+		<h2>Скільки ви знаєте про вирубку лісів і біорізноманіття?</h2>
+    <div id="quiz"></div>
+    <button id="submit">Отримати результати</button>
+    <div id="results"></div>
+  </aside>
+  <script src="quiz.js"></script>
 </body>
 </html>
