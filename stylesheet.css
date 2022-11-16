@@ -95,9 +95,10 @@ section {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   background-image: url("deforestation_blured.jpg");
   background-size: cover;
+  padding-bottom:0px;
 }
 
 article {
@@ -106,8 +107,23 @@ article {
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   background-color: #A9DFBF;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: #055827;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  font-family: sans-serif;
 }
 
 @media screen and (max-width: 768px) {
