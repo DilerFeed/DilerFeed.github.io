@@ -36,11 +36,11 @@ if (isset($_GET['page_id'])) {
         $stmt->execute([$_GET['page_id'], $_POST['name'], $_POST['content'], $_POST['rating']]);
         exit('Ваш відгук надіслано!');
     }
-    // Отримайте всі відгуки за Page ID, упорядкованими за датою надсилання
+    // Отримуємо всі відгуки за Page ID, упорядкованими за датою надсилання
     $stmt = $pdo->prepare('SELECT * FROM reviews WHERE page_id = ? ORDER BY submit_date DESC');
     $stmt->execute([$_GET['page_id']]);
     $reviews = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    // Отримайте загальну оцінку та загальну кількість відгуків
+    // Отримуємо загальну оцінку та загальну кількість відгуків
     $stmt = $pdo->prepare('SELECT AVG(rating) AS overall_rating, COUNT(*) AS total_reviews FROM reviews WHERE page_id = ?');
     $stmt->execute([$_GET['page_id']]);
     $reviews_info = $stmt->fetch(PDO::FETCH_ASSOC);
