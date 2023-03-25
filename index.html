@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My favourite hobby</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="preloader"><span class="preloader-js"></span></div>
+  <header class="header">
+    <a href="#" class="logo">My favourite hobby</a>
+    <nav class="nav-items">
+      <a href="index.html">Home</a>
+      <a href="about_camera.html">My camera</a>
+      <a href="photos.html">Photos</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main>
+    <div class="intro">
+      <h1>Photography</h1>
+      <p>This is my favourite hobby, I have been photographing for over 10 years.</p>
+      <a href="photos.html"><button>View my photos</button></a>
+    </div>
+    <div class="achievements">
+      <div class="work">
+        <i class="fas fa-flask"></i>
+        <p class="work-heading">Experience</p>
+        <p class="work-text">From early childhood I photograph everything that seems beautiful to me. During this time I have come up with many personal photography techniques and I conitnue to improve my skills.</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-star"></i>
+        <p class="work-heading">Slogan</p>
+        <p class="work-text">My main slogan about photography at the moment is: "Take simple photos of simple landscapes and complex photo of complex landscapes". Many do the opposite.</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-camera"></i>
+        <p class="work-heading">Equipment</p>
+        <p class="work-text">Equally experience is important in photography equipment. I have used many different cameras but now I have the best one I have ever owned.</p>
+      </div>
+    </div>
+    <div class="about-me">
+      <div class="about-me-text">
+        <h2>About Me</h2>
+        <p>Hello! My name is Gleb Ischenko. I am a student at the Ukrainian University VNTU. Now i don't have much time for photography, but in my free time I mostly do my favourite hobby. I also love traveling and it would be a crime not to record the magnificent landscapes that I saw. In this photo you see me on the bridge over the Carpathian river with the current photo equipment in my hands.</p>
+      </div>
+      <img src="photoes/IMG_1247.jpeg" alt="me">
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="copy">© 2023 Gleb Ischenko</div>
+    <div class="bottom-links">
+      <div class="links">
+        <span>More Info</span>
+        <a href="index.html">Home</a>
+        <a href="about_camera.html">My camera</a>
+        <a href="photos.html">Photos</a>
+        <a href="about.html">About</a>
+      </div>
+      <div class="links">
+        <span>You can find my photos here</span>
+        <a href="https://www.instagram.com/gleb_ischenko/"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+<script>
+    //after window is loaded completely
+    window.onload = function(){
+        //hide the preloader
+        document.querySelector(".preloader").style.display = "none";
+    }
+</script>
+</html>

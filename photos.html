@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<style>
+.fa-arrow-left {
+    color: black;
+    text-stroke: 5px white;
+}
+.fa-arrow-left:hover {
+    color: white;
+}
+.fa-arrow-right {
+    color: black;
+    text-stroke: 5px white;
+}
+.fa-arrow-right:hover {
+    color: white;
+}
+.carousel-captions {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,0) 100%);
+}
+</style>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My favourite hobby</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  <div class="preloader"><span class="preloader-js"></span></div>
+  <header class="header">
+    <a href="#" class="logo">My favourite hobby</a>
+    <nav class="nav-items">
+      <a href="index.html">Home</a>
+      <a href="about_camera.html">My camera</a>
+      <a href="photos.html">Photos</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="photoes/images/DSC02070.jpg" class="d-block w-100" alt="photo1">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-captions">
+                    <h5>Beauty in simple things</h5>
+                    <p>I really like the colors in this photo.</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="photoes/images/DSC02318.jpg" class="d-block w-100" alt="photo2">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-captions">
+                    <h5>And here is a macro photo</h5>
+                    <p>This is how you can photograph bees without a macro lens!</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="photoes/images/DSC02544.jpg" class="d-block w-100" alt="photo3">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-captions">
+                    <h5>And here is another macro photo taken by me</h5>
+                    <p>In the morning after the rain, there are such droplets on every blade of grass.</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="photoes/images/DSC02649.jpg" class="d-block w-100" alt="photo4">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-captions">
+                    <h5>Aktovsky Canyon</h5>
+                    <p>Amazing primeval nature of the area in which I was born.</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="photoes/images/DSC03185.jpg" class="d-block w-100" alt="photo5">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-captions">
+                    <h5>Sinyak Ridge</h5>
+                    <p>To take such a photo, you need to climb to a height of 1600 meters along untraveled paths.</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="photoes/images/DSC03228.jpg" class="d-block w-100" alt="photo6">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-captions">
+                    <h5>Untouched nature of the Carpathians</h5>
+                    <p>Photographing reflections is very difficult, but it turns out something incredible.</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="photoes/images/DSC04077.jpg" class="d-block w-100" alt="photo7">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-captions">
+                    <h5>"Forest Park", Vinnitsa</h5>
+                    <p>And they say that nature is imperfect.</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="photoes/images/P90721-120551.jpg" class="d-block w-100" alt="photo8">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-captions">
+                    <h5>And again the Carpathians. Photo taken in the early morning.</h5>
+                    <p>This is the highest mountain range in Ukraine. I still remember this hike.</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="photoes/images/P90721-151124.jpg" class="d-block w-100" alt="photo9">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-captions">
+                    <h5>Mount Hoverla</h5>
+                    <p>The highest mountain in Ukraine. How difficult it is to take such a photo!</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <i class="fas fa-arrow-left" aria-hidden="true"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <i class="fas fa-arrow-right" aria-hidden="true"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div class="achievements">
+      <div class="work">
+        <i class="fa fa-picture-o"></i>
+        <p class="work-heading">My photos</p>
+        <h2>With my newest camera alone, I have already taken over 10,000 photographs, and the total may well be over 20,000-30,000. Here you see only 9. But I hope that even these 9 photos will show you my skill. You can see more photos (and even videos) right now at the link at the bottom of the page - on my instagram.</h2>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="copy">© 2023 Gleb Ischenko</div>
+    <div class="bottom-links">
+      <div class="links">
+        <span>More Info</span>
+        <a href="index.html">Home</a>
+        <a href="about_camera.html">My camera</a>
+        <a href="photos.html">Photos</a>
+        <a href="about.html">About</a>
+      </div>
+      <div class="links">
+        <span>You can find my photos here</span>
+        <a href="https://www.instagram.com/gleb_ischenko/"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+<script>
+  //after window is loaded completely
+  window.onload = function(){
+      //hide the preloader
+      document.querySelector(".preloader").style.display = "none";
+  }
+</script>
+</html>
